@@ -14,5 +14,6 @@ def position_taken?(board, index)
   end
 end 
 
-def between?
+def between?(min, max)
+  if 
   
