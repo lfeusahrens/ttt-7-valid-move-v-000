@@ -15,5 +15,8 @@ def position_taken?(board, index)
 end 
 
 def between?(value x, value min, value max)
-  if int()
-  
+  if (int(x, min) < 0) return false;
+  if (int(x, max) > 0) return false;
+    return true;
+  end
+end
