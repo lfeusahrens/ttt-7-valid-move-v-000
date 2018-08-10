@@ -15,5 +15,5 @@ def position_taken?(board, index)
 end 
 
 def between?(value x, value min, value max)
-  if 
+  if int()
   
