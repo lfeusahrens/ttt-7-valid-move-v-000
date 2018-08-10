@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?
+def valid_move?(board, index)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   index = [0 - 8]
   if position_taken? == 
